@@ -1,0 +1,90 @@
+/*colors and fonts*/
+
+
+body { 
+	backgroud: rgb(230, 230, 230 );
+color: rgb(50,50,50);
+font-family: Helvetica;
+font-size: 19px;
+}
+h1{
+color: red;
+font-family: Courier
+font-size: 30px;
+}
+
+h2{
+color: rgb(100,100,100);
+font-size: 24px;
+font-family: lighter;
+}
+ a{
+ 	text-decoration: none;
+ 	color: purple;
+ }
+a: hover {
+	color: :blue;
+}
+a: banner{
+color: transparent;
+
+}
+
+a {
+ font-family: 'Roboto', sans-serif;
+ text-decoration: none;
+ color: #6B72E1;
+ font-weight: 600; 
+ font-size: 16px;
+}
+a:hover{
+color: black;
+}
+ 
+
+/* Custom design with class */
+
+.container{
+ width: 700px;
+ margin: 40px auto;
+}
+
+.Card-white{
+ background-color: white;
+ padding: 40px auto;
+ box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+ border-radius: 4px
+ #margin: 20px 0px;
+ text-align;center; 
+}
+.img-circle{
+	border-radius: 50%;
+}
+ .btn-blue {
+ 	background-color: #rgba(230,230,230)
+ 	color: beige;
+ 	padding: 15px 20px;
+ 	border-radius: 4px;
+  }
+  .btn-blue: hover {
+  	background-color: black;
+  	color: white;
+  }
+
+ .text-center {
+  text-align: center;
+}
+
+
+ import{FaLinkedin, FaTwitter,FaInstagram, FaFacebook}
+
+ npm install -D tailwindcss
+ npx tailwindcss init
+   
+
+
+
+
+
+
+   
